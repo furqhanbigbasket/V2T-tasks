@@ -29,6 +29,7 @@ const updateDocument = async (payload: IPayload, id: string) => {
 const deleteDocument = async (id: string) => {
 	const res = await databases.deleteDocument(dbID, collectionID, id);
 
+
 	return res;
 };
 
