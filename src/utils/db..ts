@@ -33,7 +33,6 @@ const deleteDocument = async (id: string) => {
 };
 
 
-
 const searchTasks = async (searchTerm: string) => {
     const resTitle = await databases.listDocuments(dbID, collectionID, [
     	Query.search("title", searchTerm),

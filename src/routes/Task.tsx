@@ -43,7 +43,7 @@ useEffect(() => {
 	}, []);
     
 
-    
+
 
 	return (
         <main className="container mx-auto">
